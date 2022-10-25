@@ -15,15 +15,15 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default     = "sg-081e10c1cb546c18c"
+  default     = "my-jenkins-security-group"
 }
 
 variable "tag_name" {
   description = "Tag Name of for Ec2 instance"
-  default     = "uma"
+  default     = "my-ec2-instance"
 }
 
 variable "ami_id" {
   description = "AMI for Ubuntu Ec2 instance"
-  default     = "ami-08c40ec9ead489470"
+  default     = "ami-0b9064170e32bde34"
 }
