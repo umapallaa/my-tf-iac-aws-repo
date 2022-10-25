@@ -4,7 +4,7 @@ provider "aws" {
 
 #Create security group with firewall rules
 resource "aws_security_group" "my_security_group" {
-  name        = var.security_group
+  name        = sg-081e10c1cb546c18c
   description = "security group for Ec2 instance"
 
   ingress {
